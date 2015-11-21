@@ -9,4 +9,6 @@ $(document).ready(function() {
 				.end().appendTo('#fadein');},
 				3000);
 	});	
+	$('#Here').on('click', function() { window.location = 'http://www.opentable.com/start/home';
+	});
 });
